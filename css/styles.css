@@ -87,6 +87,21 @@ img {
     color: #2e2f42;
 }
 
+.menu-link.current {
+    position: relative;
+}
+
+.menu-link.current::after {
+    content: "";
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    bottom: -1px;
+    border-radius: 2px;
+    left: 0;
+    background-color: #404bbf;
+}
+
 .contact-us {
     margin-left: auto;
     font-style: normal;
@@ -145,6 +160,7 @@ img {
 }
 
 .menu-link:hover, .menu-link:focus,
+.menu-link.current,
 .contact-list-link:hover, .contact-list-link:focus {
     color: #404bbf;
 }
