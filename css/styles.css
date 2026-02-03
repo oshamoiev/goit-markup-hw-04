@@ -406,12 +406,15 @@ img {
 
 .footer-container {
     display: flex;
-    gap: 120px;
+    align-items: baseline;
+}
+
+.footer-logo-container {
+    margin-right: 120px;
 }
 
 .footer-logo {
-    display: inline-block;
-    margin-bottom: 16px;
+    display: inline-block;margin-bottom: 16px;
 }
 
 .footer-text {
@@ -438,8 +441,8 @@ img {
 
 .social-media-list {
     display: flex;
-    align-items:   flex-end;
-    justify-content: space-between;
+    align-items: flex-end;
+    gap: 16px;
 }
 
 .social-media-link {
@@ -454,7 +457,7 @@ img {
 }
 
 .social-media-link:hover, .social-media-link:focus {
-    background-color: #404bbf;
+    background-color: #31d0aa;
 }
 
 
