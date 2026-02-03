@@ -393,6 +393,11 @@ img {
     background-color: #2e2f42;
 }
 
+.footer-container {
+    display: flex;
+    gap: 120px;
+}
+
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
@@ -406,4 +411,39 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
+
+.social-media {
+    width: 208px;
+}
+
+.social-media-title {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.social-media-list {
+    display: flex;
+    align-items:   flex-end;
+    justify-content: space-between;
+}
+
+.social-media-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-media-link:hover, .social-media-link:focus {
+    background-color: #404bbf;
+}
+
 
